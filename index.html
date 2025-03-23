@@ -1,0 +1,49 @@
+html
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر إلكتروني</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>مرحبًا بكم في متجرنا</h1>
+        <nav>
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">المنتجات</a></li>
+                <li><a href="#">عنا</a></li>
+                <li><a href="#">اتصل بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="products">
+            <div class="product">
+                <img src="images/product1.jpg" alt="Product 1">
+                <h3>اسم المنتج 1</h3>
+                <p>وصف المنتج 1</p>
+                <p>السعر: $10</p>
+                <button onclick="addToCart('Product 1')">أضف إلى السلة</button>
+            </div>
+            <div class="product">
+                <img src="images/product2.jpg" alt="Product 2">
+                <h3>اسم المنتج 2</h3>
+                <p>وصف المنتج 2</p>
+                <p>السعر: $20</p>
+                <button onclick="addToCart('Product 2')">أضف إلى السلة</button>
+            </div>
+            <!-- يمكنك إضافة المزيد من المنتجات هنا -->
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 متجر إلكتروني. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
